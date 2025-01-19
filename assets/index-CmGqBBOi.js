@@ -171,7 +171,7 @@ var c=Object.defineProperty;var b=(o,e,t)=>e in o?c(o,e,{enumerable:!0,configura
                 </div>
             </div>
         </div>
-        `}render(){n(this.style);const t=document.querySelector("main");t&&(t.innerHTML=this.html.innerHTML,document.querySelectorAll(".theme").forEach(s=>{s.addEventListener("click",()=>{window.location.href=`/themes/#${s.classList[1]}`})}))}}class x extends g{constructor(){super();i(this,"html");this.style="home",this.html=document.createElement("div"),this.html.innerHTML=`
+        `}render(){n(this.style);const t=document.querySelector("main");t&&(t.innerHTML=this.html.innerHTML,document.querySelectorAll(".theme").forEach(s=>{s.addEventListener("click",()=>{window.location.href=`/#${s.classList[1]}`})}))}}class x extends g{constructor(){super();i(this,"html");this.style="home",this.html=document.createElement("div"),this.html.innerHTML=`
         <div class="home_container">
             <div class="main_home_container">
                 <div class="topic_name">

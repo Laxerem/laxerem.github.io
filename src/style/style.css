@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat+Subrayada:wght@400;700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'JetBrains' monospace;
+    src: url(../../public/assets/fonts/JetBrains_Mono/JetBrainsMono.ttf);
+}
+
+@font-face {
+    font-family: "Bad Script", sans-serif;
+    src: url(../../public/assets/fonts/Bad_Script/BadScript-Regular.ttf) format('.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../../public/assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    z-index: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: auto;
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 25px;
+    z-index: 0;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(21,20,25);
+    background: linear-gradient(112deg, rgba(21,20,25,1) 0%, rgba(51,51,53,1) 66%, rgba(0,0,0,1) 100%);
+    box-shadow: 0px 30px 134px 30px rgb(29, 24, 141);
+}
+h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.site_name {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    gap:20px;
+}
+
+.site_name {
+    transition: 0.5s;
+}
+
+.site_name a {
+    transition: 0.2s;
+    color: white;
+}
+
+.site_name a:hover {
+    transform: scale(1.04) rotate(0.2deg);
+    color: rgb(255, 251, 0);
+}
+
+.site_name a:active {
+    color: red;
+    transform: scale(1.05) rotate(-0.2deg);
+}
+
+.border_line {
+    min-width: 350px;
+    width: 60%;
+    height: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    align-self: flex-start;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-image: url(../../public/logo-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap:30px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.catalog .about-us a {
+    transition: 1s;
+    color: #f5deb3;
+}
+
+.catalog .about-us a:hover {
+    border-bottom: 1px solid white;
+}
+
+.game-div {
+    transition: 1s;
+}
+
+.game-div a {
+    color: rgb(0, 255, 0);
+}
+
+.catalog .game-div{
+    color: blueviolet;
+    padding: 5px;
+    border-radius:25%;
+}
+
+.catalog .game-div:hover {
+    box-sizing: border-box;
+    border: 2px solid Maroon ;
+    color: Brown;
+    background-color:black;
+    transform: rotate(360deg);
+    transition: 1.0s;
+    a {
+        transition: 1s;
+        color: rgb(255, 0, 0);
+    }
+}
+
+.catalog .game-div:active {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    box-shadow: 1px -8px 25px 0px rgba(255,255,255,0.5);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 80px;
+}
+
+.footer-zagolovok {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+}
+
+.navigation_el a {
+    color: wheat;
+    font-family: "JetBrains Mono", monospace;
+    transition: 0.5s;
+}
+
+.navigation_el a:hover {
+    color: white;
+    transform: scale(2deg) rotate(30deg);
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+}
+
+.error_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 865px;
+    width: 100%;
+    background-image: url(../../public/МС.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 500px;
+    background-color: black;
+}
+
+.error_text {
+    color: aliceblue;
+}
+
+.error_code {
+    color: red;
+}
+
+span.red {
+    color: red;
+}
+
+span.green {
+    color: rgb(7, 205, 7);
+}
+
+span.green-2 {
+    color: rgb(139, 255, 139);
+}
+
+span.blue {
+    color: blue;
+}
+
+span.blue-2 {
+    color: #ea63ff;
+}
+
+span.yellow {
+    color: yellow;
+}
+
+span.orange {
+    color: orange;
+}
+
+span.brown {
+    color: rgb(200, 149, 149);
+}
+
+span.bad {
+    font-family: "Bad Script", sans-serif;
+}
+
+span.opacity {
+    opacity: 0.9;
+}
+
+.back {
+    padding: 2px;
+    font-family: "JetBrains Mono", monospace;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.back:hover {
+    background-color: yellow;
+}
+
+.state_background_opacity {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding: 0px 0px 0px 40px;
+    transition: 0.5s;
+}
+
+.main_state_text {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    max-width: 550px;
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+
+
+@media(max-width: 700px) {
+    .state_main_content{
+        .results {
+            h2 {
+                font-size: 40px;
+            }
+            .result {
+                margin-left: 0px;
+                h2 {
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:600px) {
+    .state_background_opacity {
+        align-items: center;
+        padding: 0;
+        a {
+            text-align: center;
+        }
+        .main_state_text {
+            h2 {
+                font-size: 35px;
+                text-align: center;
+            }
+            p {
+                font-size: 17px;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'JetBrains' monospace;
+    src: url(../../public/assets/fonts/JetBrains_Mono/JetBrainsMono.ttf);
+}
+
+@font-face {
+    font-family: "Bad Script", sans-serif;
+    src: url(../../public/assets/fonts/Bad_Script/BadScript-Regular.ttf) format('.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../../public/assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+main {
+    height: auto;
+}
+
+.intro {
+    box-sizing: border-box;
+    width: 90%;
+    border: 2px solid black;
+}
+
+.state_authorities_image {
+    background-image: url(../../public/новые_гос_органы.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    height: 400px;
+}
+
+.main_state_text {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    max-width: 550px;
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+
+.state_main_content {
+    padding: 40px;
+    transition: 1s;
+}
+
+.state_reasons ul li {
+    padding: 10px;
+}
+
+.revers {
+    align-self: flex-end;
+}
+
+.state_authorities_container {
+    width: 100%;
+}
+
+.state_authorities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    >p {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 50px;
+        font-family: "JetBrains Mono", monospace;
+        border-bottom: 2px solid black;
+        margin: 40px 0px 30px 0px;
+        text-align: center;
+    }
+}
+
+ul {
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+li {
+    margin-left: 10px;
+}
+
+.authorities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    transition: 1s;
+    ul {
+       padding-left: 60px;
+    }
+    li {
+        padding-top: 20px;
+    }
+    .text {
+        position: relative;
+        p {
+            font-size: 24px;
+            b {
+                font-weight: 600;
+            }
+        }
+        h2 {
+            font-size: 40px;
+        }
+    }
+    background-color: rgb(0, 0, 0);
+    color: rgb(228, 228, 228);
+    transition: 1s;
+
+
+    .graph-map {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: black;
+        .graph-name {
+            min-width: 300px;
+            border-bottom: 2px solid white;
+            h2 {
+                margin: 20px;
+                text-align: center;
+                color: white;
+                font-size: 30px;
+            }
+            transition: 1s;
+        }
+        .graph {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: 1s;
+        }
+    }
+}
+
+.central {
+    margin-top: 0px;
+}
+
+.text-zagolovok {
+    h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+.img {
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.shadow_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+    width: 90%;
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+.note {
+    font-size: 22px;
+}
+
+.text-zagolovok {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.definition {
+    width: 100%;
+    color: yellow;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding: 12px 0px 12px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.auth-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+    width: 100%;
+    gap: 50px;
+    p {
+        max-width: 600px;
+    }
+}
+
+.voen {
+    margin-bottom: 50px;
+}
+
+.img-1 {
+    background-image: url(../../public/центр-2.png);
+    background-attachment: fixed;
+}
+
+.img-2 {
+    background-image: url(../../public/Местные.png);
+    background-attachment: fixed;
+}
+
+.img-3 {
+    background-image: url(../../public/Судебные.png);
+    background-attachment: fixed;
+}
+
+.img-4 {
+    background-image: url(../../public/Военные\ органы\ власти.png);
+    background-attachment: fixed;
+}
+
+.img-5 {
+    background-image: url(../../public/Пётр1_другой.png);
+    max-width: 300px;
+    border-radius: 5px;
+    background-position: top;
+}
+
+.img-6 {
+    background-image: url(../../public/сенат-2.png);
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.img-7 {
+    background-image: url(../../public/синод-2.png);
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.img-8 {
+    background-image: url(../../public/канцелярия.png);
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.img-9 {
+    background-image: url(../../public/коллегии-2.png);
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.img-10 {
+    background-image: url(../../public/губернаторы.png);
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.img-11 {
+    background-image: url(../../public/магистраты.png);
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.img-12 {
+    background-image: url(../../public/колегии-3.png);
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.svg-1 {
+    background-size: 100%;
+    height: 700px;
+    width: 90%;
+    max-width: 970px;
+}
+
+svg {
+    .ge-export-svg-dark {
+        background-color: black;
+    }
+}
+
+@media(max-width: 1250px) and (min-width: 1100px) {
+    .svg-1 {
+        height: 630px;
+    }
+}
+
+@media(max-width: 1100px) and (min-width: 1050px) {
+    .svg-1 {
+        height: 550px;
+    }
+}
+
+@media(max-width: 1050px) and (min-width: 950px) {
+    .svg-1 {
+        height: 520px;
+    }
+}
+
+@media(max-width: 950px) and (min-width: 900px) {
+    .svg-1 {
+        height: 490px;
+    }
+}
+
+@media(max-width: 900px) and (min-width: 820px) {
+    .svg-1 {
+        height: 550px;
+    }
+}
+
+@media(max-width: 820px) and (min-width: 680px) {
+    .svg-1 {
+        height: 480px;
+    }
+}
+
+@media(max-width: 680px) and (min-width: 630px) {
+    .svg-1 {
+        height: 440px;
+    }
+}
+
+@media(max-width: 630px) and (min-width: 550px) {
+    .svg-1 {
+        height: 400px;
+    }
+}
+
+@media(max-width: 550px) and (min-width: 460px) {
+    .svg-1 {
+        height: 350px;
+    }
+}
+
+@media(max-width: 460px) and (min-width: 400px) {
+    .svg-1 {
+        height: 310px;
+    }
+}
+
+@media(max-width:1000px) {
+    .authorities {
+        width: 90%;
+    }
+    .state_main_content {
+        padding: 0;
+    }
+}
+
+@media(max-width:900px) {
+    .authorities {
+        width: 100%;
+    }
+    .state_main_content {
+        padding: 0;
+    }
+}
+
+@media(max-width: 780px) {
+    .border_line {
+        align-self: center;
+    }
+    .revers {
+        align-self: center;
+    }
+    .auth-text {
+        flex-direction: column;
+        div {
+            p {
+                text-align: center;
+            }
+        }
+    }
+    .rev {
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:450px) {
+    .state_background_opacity {
+        a {
+            font-size: 20px;
+        }
+        .main_state_text {
+            h2 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}

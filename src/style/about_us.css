@@ -1,0 +1,143 @@
+.about_us {
+    height: 100%;
+    width: 100%;
+}
+
+.programmers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: rgb(20,33,33);
+    background-image: url(../../public/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.programmer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.zagolovok {
+    font-size: 25px;
+}
+
+.laxerem-photo {
+    position: relative;
+    background-image: url(../../public/laxerem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.devilsatu-photo {
+    position: relative;
+    background-image: url(../../public/DevilSatu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.oiwiio-photo {
+    position: relative;
+    background-image: url(../../public/oiwiio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.about_him {
+    height: 400px;
+    min-width: 350px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.username-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49px;
+    border-bottom: 2px solid white;
+}
+
+.username {
+    transition: 0.5s;
+    font-size: 35px;
+    color: rgb(81, 255, 1);
+    font-family: "Parkinsans", sans-serif;
+}
+
+.username:hover {
+    transform: scale(1.02);
+}
+
+.programmer:first-child {
+    .username:hover {
+        color: rgb(255, 0, 0);
+    }
+}
+
+.programmer:nth-child(2) {
+    .username:hover {
+        color: rgb(217, 0, 255);
+    }
+}
+
+.programmer:last-child {
+    .username:hover {
+        color: yellow;
+    }
+}
+
+.text-about {
+    color: white;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
+    height: 330px;
+}
+
+.case {
+    padding-top: 15px;
+}
+
+.container {
+    padding: 5px 0px 10px 25px;
+}
+
+.list {
+    font-size: 15px;
+}
+
+.achievements li {
+    padding-top: 10px;
+}
+
+.case-container {
+    padding-top: 10px;
+}
+
+@media(max-width: 705px) {
+    .about_him {
+        margin-top: 20px;
+        width: 90%;
+    }
+    .photo-container {
+        width: 100%;
+    }
+}

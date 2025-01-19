@@ -1,0 +1,108 @@
+.home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 865px;
+    width: 100%;
+    background-image: url(../../public/sity_2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.main_home_container {
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: auto;
+}
+
+.topic_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px outset Tomato;
+    border-radius: 25px;
+    background: black;
+    color: #ffa07a;
+    height: 80px;
+    font-family: "JetBrains Mono", serif;
+    font-size: 15px;
+    h2 {
+        text-align: center;
+    }
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    gap:30px;
+    padding: 0px 30px 0px 30px;
+}
+
+.petr_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    color:white;
+    text-align: left;
+    gap:15px;
+}
+
+.ava {
+    background-image: url(../../public/PETR1.webp);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-right: 5px;
+}
+
+.main_text {
+    border: 3px solid rgba(0, 0, 0, 0.400);
+    border-radius: 20px;
+    font-family: "Montserrat", serif;
+    padding: 10px;
+    max-height: 300px;
+    background-color: rgba(0, 0, 0, 0.400);
+}
+
+.bottom_main {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.menu:hover { 
+    border: 3px solid red;
+    color:Red;
+    padding:2px;
+    background-color:black;
+    rotate:(360deg);
+    transition: 0.5s;
+}
+
+.button_next {
+    border: 2px outset rgba(156,87,14,1) ;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,87,14,1) 0%, rgba(184,122,19,1) 100%);
+    height: 40px;
+    width: 150px;
+    height: 80px;
+    transition: 0.5s;
+    border-radius:15px ;
+}
+
+.button_next:hover {
+    color: rgba(186, 85, 211, 0.8);
+    border: 2px outset BlueViolet ;
+    background: rgb(28,25,25);
+    background: linear-gradient(90deg, rgba(28,25,25,1) 3%, rgba(63,24,85,1) 53%, rgba(50,20,120,1) 96%);
+    rotate:(360deg);
+    transition: 0.5s;
+}
